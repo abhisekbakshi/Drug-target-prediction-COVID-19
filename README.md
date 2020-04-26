@@ -57,7 +57,7 @@ The repository contains a number of folders. The description about the folders a
 - **4)	Drug_Autoencoder_train:** This folder contains the python code for training of the autoencoder in order to extract high level drug ECFP features.
 - **5)	Neural_network_input_design:** This folder contains the python codes for extracting the high level encoded features from both of the autoencoders for designing training as well as testing dataset of the feed forward neural network. 
 - **6)	Neural_network_train:** This folder contains the python codes for training and testing of feed forward neural network. In order to test the accuracy of the feed forward neural network, some test data set including dataset of unknown drug-protein interactions have been kept in the folder.
-- **7)	Save_models:** This folder contains a python code for saving or loading the deep learning-based model. The folder also contains three trained models.
+- **7)	Save_models:** This folder contains a python code for saving or loading the deep learning-based model. The folder also contains trained models of autoencoder for extracting deatures of drugs and the feed forward neural network. We are unable to store the autoencoder trained model for extracting deatures of proteins due to limitation of file size as per github.
 
 **Reference:**  
 [1] https://github.com/zhanglu-cst/Drug-Target-Interaction
