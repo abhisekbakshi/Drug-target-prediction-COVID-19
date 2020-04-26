@@ -34,8 +34,8 @@ Following are software packages that may be used to generate descriptors for dru
 ## Hardware Requirement:  
 NVIDIA® GPU card with CUDA® Compute Capability 3.5 or higher. See the list of CUDA-enabled GPU cards.  
 ### Data source:  
- - DrugBank  
- - Pubchem  
+ - [DrugBank](https://www.drugbank.ca/)  
+ - [Pubchem](https://pubchem.ncbi.nlm.nih.gov/)
 
 
 ### In order to train the deep learning architecture please follow the steps below.  
