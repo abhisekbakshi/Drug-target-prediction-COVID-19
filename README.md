@@ -2,6 +2,7 @@
 
 This repository encompasses a set of python codes for prediction of binding affinity between a set of readily available drugs and the proteins coded by SARS-CoV-2. In order to capture the relation between protein sequence and several drugs we have modified the design implemented by a previous work [1]. Here we have considered a pair of SMILE formats of the drugs and protein sequences to train the neural deep neural network model. The training and testing mechanism require conversion of SMILES formats and protein sequences into molecular fingerprints. The fingerprint is a large string of features. In order to minimize the complexity of the training, we have initially incorporated two autoencoders to extract the high-level features. Thereafter, these features have been fed into a feed forward neural network.  The conceptual framework is illustrated in the figure below. 
  
+![](Images/protein_drug_binding_prediction_COVID_19.png)
 
 
 ## Software requirement:  
